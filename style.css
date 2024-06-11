@@ -1,0 +1,195 @@
+
+
+.nav-link {
+    color: #fff;
+}
+
+.bi {
+    color: #fff;
+}
+
+.pe-7 {
+    padding-right: 7rem;
+}
+
+#acerca-de-mi {
+    background-image: url(imagenes/cusco.jpg);
+    background-size: cover;
+}
+
+#about {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#acerca-de-mi h2 {
+    color: #000080;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px; 
+}
+
+.skill:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.15); /
+}
+
+.skill img {
+    width: 50px; 
+    height: 50px;
+    margin-bottom: 10px; 
+}
+
+.skill-name {
+    letter-spacing: 1px; 
+    font-size: 17px;
+    padding-top: 5px;
+    margin: 0;
+    color: #ffffff; 
+    text-align: center; 
+}
+
+#main-content  {
+    background: url(imagenes/azul.jpg) no-repeat center center fixed;
+    background-size: cover;
+    }
+
+.btn-blue {
+    border-radius: 5px; 
+    color: white;
+    background-color: #192951;
+    padding: 10px 20px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.btn-blue:hover {
+    background-color: #152585;
+    transform: scale(1.05); 
+}
+
+.nav-item .nav-link {
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #152585;
+    border-radius: 5px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+
+#hero .social-icons a {
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+.bi {
+    font-size: 18px;
+}
+
+.social-icons i {
+    margin-right: 10px;
+    color: white;
+    transition: color 0.3s ease; 
+}
+
+.social-icons i:hover {
+    color: #191970;
+}
+
+#acerca-de-mi {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+#contactame {
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+    background-image: url(imagenes/machu-picchu-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.imagen-superior {
+    position: absolute;
+    top: 30%;
+    
+    left: 12%;
+    transform: translate(50%, -50%); 
+    z-index: -1;
+    max-width: 100%; 
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+/* Skills Section Styling */
+#habilidades {
+    padding: 100px 0;
+    min-height: 100vh;
+    background-color: rgba(25, 41, 81, 0.8); 
+}
+
+.skill-name {
+    letter-spacing: 1px;
+    font-size: 16px; 
+    color: #ffffff;
+    text-align: center;
+}
+.portfolio-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #343a40;
+    margin-bottom: 60px;
+}
+
+.portfolio-section .card {
+    background-color: #1c1c1c;
+    border: none;
+    border-radius: 0.75rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-section .card-title {
+    color: #fff;
+}
+
+.portfolio-section .card-text {
+    color: #bfbfbf;
+}
+
+.portfolio-section .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.portfolio-section .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+
